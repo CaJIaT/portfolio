@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио - Хусаинов Сергей Алексеевич</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- сверху будет -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Портфолио</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Главная</a></li>
+                <li><a href="#visit-card">Визитка</a></li>
+                <li><a href="#competencies">Компетенции</a></li>
+                <li><a href="#achievements">Достижения</a></li>
+                <li><a href="#social">Активность</a></li>
+            </ul>
+            <div class="burger" id="burger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge">ГБОУПО «СТЭТ» • Севастополь</div>
+            <h1 class="hero-title">ПОРТФОЛИО</h1>
+            <p class="hero-subtitle">Хусаинов Сергей Алексеевич</p>
+            <div class="hero-info">
+                <div class="hero-info-item"><strong>Специальность:</strong> 09.02.07</div>
+                <div class="hero-info-item"><strong>Группа:</strong> ИСП9-2</div>
+                <div class="hero-info-item"><strong>Дата рождения:</strong> 13.07.2007</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- визитка -->
+    <section id="visit-card">
+        <div class="section-container">
+            <div class="section-header fade-in">
+                <div class="section-number">1</div>
+                <h2 class="section-title">Визитная карточка студента</h2>
+                <p class="section-subtitle">Личные данные и информация об обучении</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="visit-card-grid fade-in">
+                <div class="photo-container">
+                    <div class="photo-frame">
+                        <img src="images/photo.jpg" alt="Хусаинов Сергей" class="photo-img">
+                    </div>
+                </div>
+
+                <div class="visit-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Фамилия</span>
+                        <span class="detail-value highlight">Хусаинов</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Имя</span>
+                        <span class="detail-value highlight">Сергей</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Отчество</span>
+                        <span class="detail-value highlight">Алексеевич</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Дата рождения</span>
+                        <span class="detail-value">13 июля 2007 г.</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Специальность</span>
+                        <span class="detail-value">09.02.07 Информационные системы и программирование</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Учебная группа</span>
+                        <span class="detail-value">ИСП9-2</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Место обучения</span>
+                        <span class="detail-value">ГБОУПО «Севастопольский торгово-экономический техникум»</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="goals-block fade-in">
+                <div class="block-title"><span class="emoji">🎯</span> Цели обучения</div>
+                <ul class="goals-list">
+                    <li>Хорошо окончить обучение в учебном заведении «Севастопольский торгово-экономический техникум»</li>
+                    <li>Получить необходимые знания о программировании</li>
+                    <li>Развить навыки командной работы</li>
+                    <li>Завести друзей</li>
+                </ul>
+            </div>
+
+            <div class="motto-block fade-in">
+                <div class="block-title"><span class="emoji">💬</span> Жизненный девиз</div>
+                <p class="motto-text">
+                    «Делай то, что должен, и будь что будет»<br>
+                    «Улыбайся, пока у тебя есть зубы»
+                </p>
+            </div>
+
+            <div class="hobbies-block fade-in">
+                <div class="block-title"><span class="emoji">🎮</span> Хобби, интересы, увлечения</div>
+                <div class="hobbies-grid">
+                    <span class="hobby-tag">🏐 Волейбол</span>
+                    <span class="hobby-tag">🎨 Рисование</span>
+                    <span class="hobby-tag">📚 Чтение</span>
+                    <span class="hobby-tag">🎲 Настольные игры</span>
+                    <span class="hobby-tag">🎮 Видеоигры</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- компетенции -->
+    <section id="competencies">
+        <div class="section-container">
+            <div class="section-header fade-in">
+                <div class="section-number">2</div>
+                <h2 class="section-title">Общие и профессиональные компетенции</h2>
+                <p class="section-subtitle">Специальность 09.02.07 - Информационные системы и программирование</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="competencies-grid fade-in">
+                <div class="comp-card">
+                    <div class="comp-icon">💻</div>
+                    <div class="comp-title">Разработка кода информационных систем</div>
+                    <div class="comp-desc">Разработка модулей программного обеспечения для информационных систем с использованием современных языков программирования</div>
+                    <div class="comp-skills">
+                        <span class="comp-skill">Python</span>
+                        <span class="comp-skill">С#</span>
+                        <span class="comp-skill purple">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="comp-card">
+                    <div class="comp-icon">🗄️</div>
+                    <div class="comp-title">Проектирование баз данных</div>
+                    <div class="comp-desc">Проектирование и реализация баз данных для информационных систем, работа с СУБД</div>
+                    <div class="comp-skills">
+                        <span class="comp-skill">SQL</span>
+                        <span class="comp-skill">MySQL</span>
+                        <span class="comp-skill purple">PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="comp-card">
+                    <div class="comp-icon">🌐</div>
+                    <div class="comp-title">Разработка веб-приложений</div>
+                    <div class="comp-desc">Создание и сопровождение веб-приложений, работа с фронтенд и бэкенд технологиями</div>
+                    <div class="comp-skills">
+                        <span class="comp-skill">JavaScript</span>
+                        <span class="comp-skill">Node.js</span>
+                        <span class="comp-skill purple">API</span>
+                    </div>
+                </div>
+                <div class="comp-card">
+                    <div class="comp-icon">🔧</div>
+                    <div class="comp-title">Тестирование и отладка ПО</div>
+                    <div class="comp-desc">Проведение тестирования программных продуктов, поиск и устранение ошибок</div>
+                    <div class="comp-skills">
+                        <span class="comp-skill">Unit-тесты</span>
+                        <span class="comp-skill purple">Debugging</span>
+                    </div>
+                </div>
+                <div class="comp-card">
+                    <div class="comp-icon">📊</div>
+                    <div class="comp-title">Администрирование информационных систем</div>
+                    <div class="comp-desc">Установка, настройка и сопровождение информационных систем, работа с ОС</div>
+                    <div class="comp-skills">
+                        <span class="comp-skill">Linux</span>
+                        <span class="comp-skill">Windows Server</span>
+                        <span class="comp-skill purple">Git</span>
+                    </div>
+                </div>
+                <div class="comp-card">
+                    <div class="comp-icon">🤝</div>
+                    <div class="comp-title">Общие компетенции</div>
+                    <div class="comp-desc">Работа в команде, коммуникация, самоорганизация, информационная грамотность</div>
+                    <div class="comp-skills">
+                        <span class="comp-skill">Командная работа</span>
+                        <span class="comp-skill purple">GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- достижения -->
+    <section id="achievements">
+    <div class="section-container">
+        <div class="section-header fade-in">
+            <div class="section-number">3</div>
+            <h2 class="section-title">Учебные достижения</h2>
+            <p class="section-subtitle">Грамоты, дипломы, сертификаты</p>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="documents-grid fade-in">
+
+            <div class="doc-card">
+                <img src="documents/1.jpg" alt="Грамота 1">
+            </div>
+
+            <div class="doc-card">
+                <img src="documents/2.jpg" alt="Грамота 2">
+            </div>
+
+            <div class="doc-card">
+                <img src="documents/3.jpg" alt="Грамота 3">
+            </div>
+
+            <div class="doc-card">
+                <img src="documents/4.jpg" alt="Грамота 4">
+            </div>
+
+            <div class="doc-card">
+                <img src="documents/5.jpg" alt="Грамота 5">
+            </div>
+
+            <div class="doc-card">
+                <img src="documents/6.jpg" alt="Грамота 6">
+            </div>
+
+            <div class="doc-card">
+                <img src="documents/7.jpg" alt="Грамота 7">
+            </div>
+
+            <div class="doc-card">
+                <img src="documents/8.jpg" alt="Грамота 8">
+            </div>
+
+            <div class="doc-card">
+                <img src="documents/9.jpg" alt="Грамота 9">
+            </div>
+
+            <div class="doc-card">
+                <img src="documents/10.jpg" alt="Грамота 10">
+            </div>
+
+            <div class="doc-card">
+                <img src="documents/11.jpg" alt="Грамота 11">
+            </div>
+
+            <div class="doc-card">
+                <img src="documents/12.jpg" alt="Грамота 12">
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- Общие компетенции -->
+    <section id="general-comp" style="background: var(--white);">
+        <div class="section-container">
+            <div class="section-header fade-in">
+                <div class="section-number">4</div>
+                <h2 class="section-title">Освоение общих компетенций</h2>
+                <p class="section-subtitle">ОК 01–ОК 10 - универсальные компетенции специалиста</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="competencies-grid fade-in">
+                <div class="comp-card">
+                    <div class="comp-icon">📋</div>
+                    <div class="comp-title">ОК 01. Выбор способов решения задач</div>
+                    <div class="comp-desc">Осуществлять поиск, анализ и интерпретацию информации, необходимой для выполнения задач профессиональной деятельности</div>
+                </div>
+                <div class="comp-card">
+                    <div class="comp-icon">🎯</div>
+                    <div class="comp-title">ОК 02. Поиск и использование информации</div>
+                    <div class="comp-desc">Определять задачи профессионального и личностного развития, заниматься самообразованием</div>
+                </div>
+                <div class="comp-card">
+                    <div class="comp-icon">🤝</div>
+                    <div class="comp-title">ОК 03. Планирование профессионального развития</div>
+                    <div class="comp-desc">Планировать и реализовывать профессиональное и личностное развитие</div>
+                </div>
+                <div class="comp-card">
+                    <div class="comp-icon">👥</div>
+                    <div class="comp-title">ОК 04. Взаимодействие в коллективе</div>
+                    <div class="comp-desc">Эффективно взаимодействовать и работать в коллективе и команде</div>
+                </div>
+                <div class="comp-card">
+                    <div class="comp-icon">🗣️</div>
+                    <div class="comp-title">ОК 05. Устная и письменная коммуникация</div>
+                    <div class="comp-desc">Осуществлять устную и письменную коммуникацию на государственном языке РФ</div>
+                </div>
+                <div class="comp-card">
+                    <div class="comp-icon">🌍</div>
+                    <div class="comp-title">ОК 06. Гражданско-патриотическая позиция</div>
+                    <div class="comp-desc">Проявлять гражданско-патриотическую позицию на основе традиционных общечеловеческих ценностей</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- активность -->
+    <section id="social">
+        <div class="section-container">
+            <div class="section-header fade-in">
+                <div class="section-number">5</div>
+                <h2 class="section-title">Социальная активность</h2>
+                <p class="section-subtitle">Участие в общественной жизни, спортивные и творческие достижения</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="social-grid fade-in">
+                <div class="social-card">
+                    <div class="social-icon">🏐</div>
+                    <div class="social-title">Спортивные достижения</div>
+                    <div class="social-desc">Волейбол - участие в спортивных мероприятиях</div>
+                </div>
+                <div class="social-card">
+                    <div class="social-icon">🎨</div>
+                    <div class="social-title">Творческие достижения</div>
+                    <div class="social-desc">Рисование - участие в творческих конкурсах</div>
+                </div>
+                <div class="social-card">
+                    <div class="social-icon">🎲</div>
+                    <div class="social-title">Настольные игры</div>
+                    <div class="social-desc">Участие в играх, развитие стратегического мышления</div>
+                </div>
+                <div class="social-card">
+                    <div class="social-icon">📚</div>
+                    <div class="social-title">Чтение и саморазвитие</div>
+                    <div class="social-desc">Чтение художественной литературы</div>
+                </div>
+                <div class="social-card">
+                    <div class="social-icon">🎮</div>
+                    <div class="social-title">Киберспорт</div>
+                    <div class="social-desc">Участие в киберспортивных мероприятиях</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-title">Хусаинов Сергей Алексеевич</div>
+            <div class="footer-sub">Специальность 09.02.07 «Информационные системы и программирование»</div>
+            <div class="footer-info">
+                ГБОУПО «Севастопольский торгово-экономический техникум»<br>
+                Группа ИСП9-2 • Севастополь<br><br>
+                «Делай то, что должен, и будь что будет»
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" onclick="scrollToTop()">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
