@@ -582,3 +582,43 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+.footer-contacts {
+    margin: 1.5rem 0;
+    padding: 1.2rem 1.5rem;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-contacts h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 0.8rem;
+}
+
+.footer-contacts h3 i {
+    margin-right: 0.4rem;
+    color: var(--purple-pale);
+}
+
+.footer-contacts a {
+    display: block;
+    color: var(--green-pale);
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.4rem 0;
+    transition: color 0.3s;
+}
+
+.footer-contacts a:hover {
+    color: var(--purple-pale);
+}
+
+.footer-contacts a i {
+    width: 24px;
+    text-align: center;
+    margin-right: 0.5rem;
+    color: var(--green-light);
+}
